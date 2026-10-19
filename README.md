@@ -19,9 +19,7 @@ Kort svar til spørgsmål, og keywords fra kilder:
 
 2. Research, "Hvilke filer skal der bruges til en pwa?" Der skal bruges manifest.json (Web APp Manifest), service-worker.js (sw.js), og HTML-fil (også includer cache). 
 
-3. Research, "Hvilken JS kode er speciel for en pwa?" Service worker-filen
-
-
+3. Research, "Hvilken JS kode er speciel for en pwa?" Registrering af Service worker-filen (sw.js), "offline-caching" i Service-Worker, etc.
 
 4. Research, "Hvad er en "Native" app?"
 5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)"
@@ -77,9 +75,10 @@ Kilde-list:
 
          Всё, что нужно знать о Progressive Web App (PWA)
 
+10. https://www.youtube.com/watch?v=shFZzzR98bc
+"In this video, Theo shows you how to make a Progressive Web App (PWA)!"
 
- 
-
+            How to make a Progressive Web App (PWA)
 
 
 
