@@ -23,7 +23,8 @@ Kort svar til spørgsmål, og keywords fra kilder:
 
 4. Research, "Hvad er en "Native" app?" Native apps er installeret via en app‑butik og åbnes fra enhedens startskærm. De er udviklet specifikt til én platform og kan udnytte alle enhedens funktioner som kamera, GPS, accelerometer, kompas og kontaktliste. De kan bruge både systemgestus og app‑definerede gestus, sende notifikationer og fungere offline.
 
-5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)"
+5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)" til nr. 5: En native app er lavet til ét styresystem og køres direkte af det. En PWA er en hjemmeside, der køres af browseren og virker på alle enheder.
+
 6. Research "Kan en pwa distributes gennem appstores?"
 
       
@@ -81,11 +82,16 @@ Kilde-list:
 
             How to make a Progressive Web App (PWA)
 
+12. https://www.netlify.com/for/web-applications/
+"Web Applications on Netlify. Build & run dynamic, high performance web applications at global scale—without requiring servers, DevOps, or costly infrastructure."
+
+            Hosting Web Applications on Netlify Edge
 
 
-
-
-
-
+Små links der involver Manifest og Service-Worker:
+https://javascript.plainenglish.io/app-icons-in-a-pwa-8fb775207ad7
+https://realfavicongenerator.net/
+https://github.com/Webudvikler-TechCollege/Progressive-Web-Apps/blob/main/Guides/web-app-manifest.md
+https://github.com/Webudvikler-TechCollege/Progressive-Web-Apps/blob/main/Guides/service-worker.md
 
 
