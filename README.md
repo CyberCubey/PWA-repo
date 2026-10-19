@@ -14,15 +14,17 @@ kl: 11.00 mini opsamling.
 Netlify supports Progressive Web Apps, prompt: "netlify pwa" men bruges Web App Manifest (manifest.webmanifest), sw.js (serviceworker).
 
 
-1. Research, "Hvilken Hosting Krav er der til en pwa?" HTTPS, Korrekt MIME-type, og understøttelse af Service Worker, etc. (men kan også bruge Node.js til at køre server-side rendering, som sikrer hurtig indlæsning og SEO)
+Kort svar til spørgsmål, og keywords:
+1. Research, "Hvilken Hosting Krav er der til en pwa?" HTTPS, Korrekt MIME-type, og understøttelse af Service Worker, etc. (men kan også bruge Node.js til at køre server-side rendering, som sikrer hurtig indlæsning og "SEO")
 
-2. Research, "Hvilke filer skal der bruges til en pwa?"
+2. Research, "Hvilke filer skal der bruges til en pwa?" Der skal bruges manifest.json (Web APp Manifest), service-worker.js (sw.js), og HTML-fil. 
+
 3. Research, "Hvilken JS kode er speciel for en pwa?"
 4. Research, "Hvad er en "Native" app?"
 5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)"
 6. Research "Kan en pwa distributes gennem appstores?"
 
-
+      
 
 
 Kilde-list:
@@ -39,8 +41,48 @@ Kilde-list:
 
  3. https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
    "For a PWA to be installable it must be served using the https protocol, or from a local development environment using localhost or 127.0.0.1 — ..."
-
+   
          Making PWAs installable - Progressive web apps | MDN
   
+4. https://wearespace.dk/ordbog/progressive-web-app/
+"PWA'en viser menuer offline, sender push-notifikationer om daglige tilbud og indlæser på under 1 sekund. Resultatet er 3x flere "installationer" end deres ..."
 
-   
+         Progressive Web App (PWA): hvad betyder det? - Space
+
+5. https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app#technical_features_of_pwas
+"A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app."
+
+         What is a progressive web app? - Progressive web apps | MDN
+ 
+6. https://www.indexed.dk/blog/pwa
+"Hvad er PWA? Forkortelsen står for Progressive Web App og er en hybrid mellem en alm webapp (browserapp) og en native app på mobilen. En PWA ..."
+
+         PWA (Progressive Web App) og hvad kan det bruges til
+
+7. https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+"This article provides information on getting started with service workers, including basic architecture, registering a service worker, the installation and activation process for a new service work..."
+
+       Using Service Workers - Web APIs | MDN
+
+8. https://web.dev/articles/install-criteria
+"Progressive Web App installability criteria."
+ 
+         What does it take to be installable?  |  web.dev
+
+9. https://habr.com/ru/companies/wrike/articles/481240/
+"PWA — прогрессивные веб-приложения. Предупреждение . Эта статья не проспонсирована PWA. Все взгляды и мнения в статье принадлежат только её автору. Progressive Web App или PWA — лучший способ для..."
+
+         Всё, что нужно знать о Progressive Web App (PWA)
+
+
+ 
+
+
+
+
+
+
+
+
+
+
