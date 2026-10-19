@@ -21,8 +21,7 @@ Kort svar til spørgsmål, og keywords fra kilder:
 
 3. Research, "Hvilken JS kode er speciel for en pwa?" Registrering af Service worker-filen (sw.js), "offline-caching" i Service-Worker, etc.
 
-4. Research, "Hvad er en "Native" app?"
-
+4. Research, "Hvad er en "Native" app?" Native apps er installeret via en app‑butik og åbnes fra enhedens startskærm. De er udviklet specifikt til én platform og kan udnytte alle enhedens funktioner som kamera, GPS, accelerometer, kompas og kontaktliste. De kan bruge både systemgestus og app‑definerede gestus, sende notifikationer og fungere offline.
 
 5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)"
 6. Research "Kan en pwa distributes gennem appstores?"
@@ -81,12 +80,6 @@ Kilde-list:
 "In this video, Theo shows you how to make a Progressive Web App (PWA)!"
 
             How to make a Progressive Web App (PWA)
-
-11. https://www.nngroup.com/articles/mobile-native-apps/
-"Native and hybrid apps are installed in an app store; web apps are mobile-optimized webpages that look like an app. Hybrid apps use app-embedded browsers."
-
-            Mobile: Native Apps, Web Apps, and Hybrid Apps - NN/G
-
 
 
 
