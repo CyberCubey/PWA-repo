@@ -25,7 +25,7 @@ Kort svar til spørgsmål, og keywords fra kilder:
 
 5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)" til nr. 5: En native app er lavet til ét styresystem og køres direkte af det. En PWA er en hjemmeside, der køres af browseren og virker på alle enheder.
 
-6. Research "Kan en pwa distributes gennem appstores?"
+6. Research "Kan en pwa distributes gennem appstores?" til nr. 6: En PWA kan godt pakkes og lægges på appstores.
 
       
 
