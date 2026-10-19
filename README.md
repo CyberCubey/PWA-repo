@@ -14,13 +14,12 @@ kl: 11.00 mini opsamling.
 Netlify supports Progressive Web Apps, prompt: "netlify pwa" men bruges Web App Manifest (manifest.webmanifest), sw.js (serviceworker).
 
 
-Kort svar til spørgsmål, og keywords fra kilder:
+Kort svar til spørgsmål, og keywords:
 1. Research, "Hvilken Hosting Krav er der til en pwa?" HTTPS, Korrekt MIME-type, og understøttelse af Service Worker, etc. (men kan også bruge Node.js til at køre server-side rendering, som sikrer hurtig indlæsning og "SEO")
 
-2. Research, "Hvilke filer skal der bruges til en pwa?" Der skal bruges manifest.json (Web APp Manifest), service-worker.js (sw.js), og HTML-fil (også includer cache). 
+2. Research, "Hvilke filer skal der bruges til en pwa?" Der skal bruges manifest.json (Web APp Manifest), service-worker.js (sw.js), og HTML-fil, icons for install.
 
-3. Research, "Hvilken JS kode er speciel for en pwa?" Registrering af Service worker-filen (sw.js), "offline-caching" i Service-Worker, etc.
-
+3. Research, "Hvilken JS kode er speciel for en pwa?"
 4. Research, "Hvad er en "Native" app?"
 5. Research, "Er en pwa "native" (hvis ikke, Hvad er forskellen)"
 6. Research "Kan en pwa distributes gennem appstores?"
@@ -75,10 +74,9 @@ Kilde-list:
 
          Всё, что нужно знать о Progressive Web App (PWA)
 
-10. https://www.youtube.com/watch?v=shFZzzR98bc
-"In this video, Theo shows you how to make a Progressive Web App (PWA)!"
 
-            How to make a Progressive Web App (PWA)
+ 
+
 
 
 
