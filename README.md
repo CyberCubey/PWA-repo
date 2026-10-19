@@ -11,7 +11,7 @@
 
 kl: 11.00 mini opsamling.
 
-Netlify supports Progressive Web Apps, prompt: "netlify pwa" men bruges Web App Manifest (manifest.webmanifest), sw.js (serviceworker).
+Netlify supports Progressive Web Apps, prompt: "netlify pwa" men bruges Web App Manifest (manifest.webmanifest), sw.js (serviceworker). Andre web-host ("webhoteller") som Netlify: Vercel, Cloudflare Pages, Render, Railway, Fly.io.
 
 
 #### Kort svar til spørgsmål, og keywords fra kilder:
