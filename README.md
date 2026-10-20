@@ -13,6 +13,9 @@ kl: 11.00 mini opsamling. 19/10/2026.
 
 Netlify supports Progressive Web Apps, prompt: "netlify pwa" men bruges Web App Manifest (manifest.webmanifest), sw.js (serviceworker). Andre web-host ("webhoteller") som Netlify: Vercel, Cloudflare Pages, Render, Railway, Fly.io.
 
+#### Nuværende PWA-opsætning
+Appen bruger `assets/js/manifest.json` og service worker-filen `sw.js` i projektets rod. Kør den via `localhost` under udvikling, eller publicér den på HTTPS; åbning direkte som `file://` understøtter ikke service workers. Service workeren cacher appens statiske filer, mens hentning af hundebilleder fra Dog CEO API stadig kræver internetadgang.
+
 
 #### Kort svar til spørgsmål, og keywords fra kilder:
 1. Research, "Hvilken Hosting Krav er der til en pwa?" HTTPS, Korrekt MIME-type, og understøttelse af Service Worker, etc. (men kan også bruge Node.js til at køre server-side rendering, som sikrer hurtig indlæsning og "SEO")
@@ -102,5 +105,4 @@ https://realfavicongenerator.net/
 https://github.com/Webudvikler-TechCollege/Progressive-Web-Apps/blob/main/Guides/web-app-manifest.md
 
 https://github.com/Webudvikler-TechCollege/Progressive-Web-Apps/blob/main/Guides/service-worker.md
-
 
